@@ -24,7 +24,7 @@ body {
       }
 	  
 .inner .jumbotron {
-        margin: 40px 0;
+        margin: 60px 0;
         text-align: center;
       }
 
@@ -95,4 +95,7 @@ body {
         border-radius: 0 3px 3px 0;
       }
 	  
-
+/* Inner Page List styles */
+.row-fluid .span12 {
+  width: 100%;
+  margin:0 0 20px 0;
