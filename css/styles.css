@@ -7,17 +7,18 @@ body {
   }
 
 
-/* Custom container */
+/* Modules */
+
 .container {
   margin: 0 auto;
   max-width: 1000px;
   }
 	  
 .container > hr {
-  margin: 60px 0;
+  margin: 20px 0;
   }
-
-/* Hero */
+  
+  
 .jumbotron {
   margin: 80px 0;
   text-align: center;
@@ -40,12 +41,24 @@ body {
 	line-height:1.25;
 	}
 
-
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
   }
-	  
+  
+.sidebar {
+  background-color:#fafafa;
+  border: #eee solid 1px;
+  padding:40px;
+  margin-bottom:20px;
+  color:#999;
+  border-radius: 7px
+  }
+  
+.sidebar h4 {
+  margin-top:0;  
+  }
+  
 	  
 
 
@@ -96,6 +109,7 @@ body {
   }
 	  
 /* Inner Page List styles */
+
 .row-fluid .span12 {
   width: 100%;
   margin:0 0 20px 0;
@@ -112,14 +126,13 @@ h3 {
   
 h4 {
 	font-size:20px;
+	margin-top:50px;
   }
+  
   
 h5 {
 	font-size:14px;
 	margin:20px 0 0 0;
   }
-	
-article {
-	max-width: 800px;
-	}
+
 	
