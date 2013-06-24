@@ -29,6 +29,10 @@ h4 { /* Inner Page Subhead */
 h1, h2, h3 {
   line-height: 1.25em;
   }
+  
+.e-breadcrumb {
+  margin:40px 0 10px 0;
+  }
 
 
 /***** Modules ************************************/
@@ -93,6 +97,34 @@ textarea {
   
 label {
   margin:10px 0 2px 0;
+  }
+  
+.brick {
+  padding-bottom:20px;
+  border-bottom:1px solid #bbbbbb;
+  }
+  
+.brick h3 {
+  float:left;
+  }
+  
+.tags {
+  float:right;
+  margin-top:34px;
+  }
+  
+.brick p {
+  clear:both;
+  }
+  
+.filters {
+ list-style-type: none;
+ padding:0;
+ margin:5px 0;
+}
+
+.filters li {
+  line-height: 1.5em;
   }
   
 
