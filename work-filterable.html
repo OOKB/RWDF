@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<!-- Le styles -->
+  <meta charset="utf-8">
+  <title>Deutsch Foundation Skeleton</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Site Structure for the Deutsch Foundation Website">
+  <meta name="author" content="OOKB">
+    
+  <link href="css/bootstrap.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
+
+<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]><script src="../assets/js/html5shiv.js"></script><![endif]-->
+
+<!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  
+  </head>
+
+  <body>
+
+<div class="container inner">
+
+<div class="row-fluid">
+
+  <div class="span3">
+    <h4>Area of Focus</h4>
+    <ul class="filters" id="filters">
+      <li><a href="#" data-filter="*">View All Categories</a></li>
+      <li><a href="#" data-filter=".arts"><i class="icon-picture"></i> Arts and Culture</a></li>
+      <li><a href="#" data-filter=".justice"><i class="icon-heart"></i> Social Justice</a></li>
+      <li><a href="#" data-filter=".community"><i class="icon-bullhorn"></i> Community Development</a></li>
+      <li><a href="#" data-filter=".science"><i class="icon-globe"></i> Science and Technology</a></li>
+      <li><a href="#" data-filter=".scholar"><i class="icon-bookmark"></i> Scholars and Fellowships</a></li>
+      </ul>
+    </div>
+        
+  <div class="span9" id="projects">
+  
+    <div class="brick science scholar foundation umbc">
+      <h3>BIOFAB</h3>
+      <p>Deutsch has a recurring commitment to fund the incredible work coming from the Biobab at the University of Maryland College Park. Researchers are creating microscale "living laboratories" to investigate biochemical reaction pathways, and "biological nanofactories" capable of initiating communications between bacteria in a major, multi-disciplinary research program in biofabrication. <a href="project-sample.html">Read more &rarr;</a></p>
+      </div>
+    <div class="brick justice community science foundation">
+      <h3>The Center for Community Technology Services</h3>
+      <p>The CCTS is a free-standing service provider, operating outside its university incubator and serving a wide-range of foundations, nonprofit organizations and civic groups in the Baltimore region. <a href="project-sample.html">Read more &rarr;</a></p>
+      </div>
+    <div class="brick justice community single">
+      <h3>The Media Democracy Fund</h3>
+      <p>The MDF exists to protect and promote free speech, equal opportunity, open access and the participation of diverse voices in the affairs of this nation. <a href="project-sample.html">Read more &rarr;</a></p>
+      </div>
+      
+        </div>
+        
+
+    </div>
+
+
+<!-- Footer -->
+
+
+  <div class="footer">
+    <hr>
+    <p>&copy; Deutsch Foundation 2013 &nbsp; &nbsp; // &nbsp; &nbsp; Contact Info &nbsp; &nbsp; // &nbsp; &nbsp; [Facebook] [Twitter] [WordPress] [Other]</p>
+    </div>
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    
+    
+
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+  <script src="js/jquery.isotope.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.8.3.js"%3E%3C/script%3E'))</script>
+  
+  <!-- OOKB Custom -->
+   
+<script>
+   var $container = $('#projects');
+   $container.isotope({
+   })
+   $('#filters a').click(function(){
+     var selector = $(this).attr('data-filter');
+     $container.isotope({ filter: selector });
+     return false;
+     });
+   </script>
+    
+    
+    <!-- Bootstrap -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+  </body>
+</html>

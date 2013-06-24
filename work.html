@@ -62,31 +62,30 @@
 
       <hr>
       
-      
-      <!-- Filters -->
-  
 
-      <!-- Example row of columns -->
+<!-- Content -->
 <div class="row-fluid">
 
   <div class="span3">
-    <h4>Area of Focus</h4>
-    <ul class="filters">
-      <li><a href="#"><i class="icon-picture"></i> Arts and Culture</a></li>
-      <li><a href="#"><i class="icon-heart"></i> Social Justice</a></li>
-      <li><a href="#"><i class="icon-bullhorn"></i> Community Development</a></li>
-      <li><a href="#"><i class="icon-globe"></i> Science and Technology</a></li>
-      <li><a href="#"><i class="icon-bookmark"></i> Scholars and Fellowships</a></li>
-      </ul>
-    <h4>Type of Grantee</h4>
-    <ul class="filters">
+    <h4>Type of Project</h4>
+    <ul class="filters" id="filters">
+      <li><a href="#" data-filter="*">View All Categories</a></li>
+      <li><a href="#" data-filter=".arts"><i class="icon-picture"></i> Arts and Culture</a></li>
+      <li><a href="#" data-filter=".justice"><i class="icon-heart"></i> Social Justice</a></li>
+      <li><a href="#" data-filter=".community"><i class="icon-bullhorn"></i> Community Development</a></li>
+      <li><a href="#" data-filter=".science"><i class="icon-globe"></i> Science and Technology</a></li>
+      <li><a href="#" data-filter=".scholar"><i class="icon-bookmark"></i> Scholars and Fellowships</a></li>
+      <li></li>
       <li><a href="#"><i class="icon-user"></i> Single Project</a></li>
       <li><a href="#"><i class="icon-home"></i> Foundations</a></li>
+      <li><a href="#"><i class="icon-user"></i> Spruce-up Grants</a></li>
+      <li><a href="#"><i class="icon-home"></i> University of Maryland</a></li>
+      <li></li>
       </ul>
     </div>
         
-  <div class="span9">
-    <article class="brick">
+  <div class="span9" id="projects">
+    <div class="brick arts">
       <h3>BIOFAB</h3>
       <span class="tags">
         <i class="icon-leaf"></i>
@@ -94,8 +93,8 @@
         <i class="icon-bookmark"></i>
         </span>
       <p>Deutsch has a recurring commitment to fund the incredible work coming from the Biobab at the University of Maryland College Park. Researchers are creating microscale "living laboratories" to investigate biochemical reaction pathways, and "biological nanofactories" capable of initiating communications between bacteria in a major, multi-disciplinary research program in biofabrication. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
+      </div>
+    <div class="brick">
       <h3>The Center for Community Technology Services</h3>
       <span class="tags">
         <i class="icon-picture"></i>
@@ -104,8 +103,8 @@
         <i class="icon-wrench"></i>
         </span>
       <p>The CCTS is a free-standing service provider, operating outside its university incubator and serving a wide-range of foundations, nonprofit organizations and civic groups in the Baltimore region. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
+      </div>
+    <div class="brick justice">
       <h3>The Media Democracy Fund</h3>
       <span class="tags">
         <i class="icon-globe"></i>
@@ -113,8 +112,8 @@
         <i class="icon-wrench"></i>
         </span>
       <p>The MDF exists to protect and promote free speech, equal opportunity, open access and the participation of diverse voices in the affairs of this nation. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
+      </div>
+    <div class="brick arts">
       <h3>Imaging Research Center</h3>
       <span class="tags">
         <i class="icon-globe"></i>
@@ -122,16 +121,16 @@
         <i class="icon-wrench"></i>
         </span>
       <p>UMBC’s Imaging Research Center is ideally positioned to explore these emerging digital and communications technologies and bring the power of these innovations to the work Professor Dan Bailey and other faculty were pursuing in their teaching and research. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
+      </div>
+    <div class="brick arts">
       <h3>The Allosphere</h3>
       <span class="tags">
         <i class="icon-leaf"></i>
         <i class="icon-picture"></i>
         </span>
       <p> The Foundation funds five graduate fellowships in the Media Arts and Technology program to pursue work conducted between the university’s Experimental Visualization Laboratory and the AlloSphere Research Facility. The former, led by Professor George Legrady, focuses on data visualization, computational photography and arts-engineering collaboration; the latter is a 30-foot diameter immersive sphere built within a three story cube– which allows for analysis of large data sets in a virtual simulation of full sensorial perception. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
+      </div>
+    <div class="brick arts">
       <h3>The Koban Project</h3>
       <span class="tags">
         <i class="icon-globe"></i>
@@ -139,8 +138,8 @@
         <i class="icon-wrench"></i>
         </span>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
+      </div>
+    <div class="brick arts">
       <h3>The Chicken Box</h3>
       <span class="tags">
         <i class="icon-picture"></i>
@@ -148,8 +147,8 @@
         <i class="icon-bullhorn"></i>
         </span>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna alr in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-        <article class="brick">
+      </div>
+        <div class="brick arts">
       <h3>Greenmount North Garden</h3>
       <span class="tags">
         <i class="icon-picture"></i>
@@ -157,16 +156,16 @@
         <i class="icon-bullhorn"></i>
         </span>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
+      </div>
+    <div class="brick">
       <h3>Charles North Park Revovations</h3>
       <span class="tags">
         <i class="icon-picture"></i>
         <i class="icon-bullhorn"></i>
         </span>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiatm. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
+      </div>
+    <div class="brick arts">
       <h3>Penn Station Plaza</h3>
       <span class="tags">
         <i class="icon-picture"></i>
@@ -178,8 +177,8 @@
         <i class="icon-bullhorn"></i>
         </span>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
+      </div>
+    <div class="brick">
       <h3>North Avenue Big Belly Solar Waste System</h3>
       <span class="tags">
         <i class="icon-picture"></i>
@@ -188,16 +187,16 @@
         <i class="icon-leaf"></i>
         </span>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
-    <article class="brick">
-      <h3>Greenmount Wesr Facade Improvement Project</h3>
+      </div>
+    <div class="brick arts">
+      <h3>Greenmount West Facade Improvement Project</h3>
       <span class="tags">
         <i class="icon-picture"></i>
         <i class="icon-user"></i>
         <i class="icon-leaf"></i>
         </span>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi. <a href="project-sample.html">Read more &rarr;</a></p>
-      </article>
+      </div>
         </div>
         
 
@@ -219,10 +218,23 @@
     <!-- Placed at the end of the document so the pages load faster -->
     
     
-<!-- OOKB Custom -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+  <script src="js/jquery.isotope.js"></script>
   <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.8.3.js"%3E%3C/script%3E'))</script>
+  
+  
+  <!-- OOKB Custom -->
    
+<script>
+   var $container = $('#projects');
+   $container.isotope({
+   })
+   $('#filters a').click(function(){
+     var selector = $(this).attr('data-filter');
+     $container.isotope({ filter: selector });
+     return false;
+     });
+   </script>
     
     
     <!-- Bootstrap -->
