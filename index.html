@@ -15,40 +15,48 @@
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/fontface.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet">
+<!--     <link href="css/oldnav.css" rel="stylesheet"> -->
     <link href="css/rwdf.css" rel="stylesheet">
     
 <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
-  <!--[if lt IE 9]><script src="../assets/js/html5shiv.js"></script><![endif]-->
+  <!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
 
 <!-- Fav and touch icons -->
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-  <link rel="shortcut icon" href="../assets/ico/favicon.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="ico/favicon.png">
   
   </head>
 
 <body>
-
+  
+  <!-- Header and Navigation -->
+  <header class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <button type="button" class="btn btn-navbar collapsed" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="index.html" class="brand span2"><img src="img/rwdflogo.jpg" alt="Robert W. Deutsch Foundation" /></a>
+        <div class="nav-collapse collapse pull-right">
+          <ul class="nav">
+            <li><a href="about.html">Who We Are</a></li>
+            <li><a href="work.html">What We Do</a></li>
+            <li><a href="tellus.html">Tell Us About You</a></li>
+            <li><a href="http://rwdfblog.com/" target="_blank">Visit the Blog</a></li>
+          </ul>
+        </div><!-- end nav-collapse-->
+      </div><!-- end container -->
+    </div>
+  </header>
+  <!-- End Header and main nav -->
+  
   <div class="container inner">
-    <div class="masthead">
-<!--       <h3 class="logo"><a href="index.html">Robert W. Deutsch Foundation</a></h3> -->
-      <div class="navbar navbar-fixed-top">
-        <div class="navbar-inner">
-          <div class="container">
-            <figure class="logo"><a href="index.html"><img src="img/rwdflogo.jpg" alt="Robert W. Deutsch Foundation" /></a></figure>
-            <ul class="nav pull-right">
-              <li><a href="about.html">Who We Are</a></li>
-              <li><a href="work.html">What We Do</a></li>
-              <li><a href="tellus.html">Tell Us About You</a></li>
-              <li><a href="http://rwdfblog.com/" target="_blank">Visit the Blog</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-
+    
       <!-- Jumbotron -->
       <div class="jumbotron slideshow">
         <h1>We are Deutsch</h1>
@@ -91,19 +99,20 @@
     <!-- Le javascript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-alert.js"></script>
+    <script src="js/bootstrap-modal.js"></script>
+    <script src="js/bootstrap-dropdown.js"></script>
+    <script src="js/bootstrap-scrollspy.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+    <script src="js/bootstrap-tooltip.js"></script>
+    <script src="js/bootstrap-popover.js"></script>
+    <script src="js/bootstrap-button.js"></script>
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-carousel.js"></script>
+    <script src="js/bootstrap-typeahead.js"></script>
 
   </body>
 </html>
