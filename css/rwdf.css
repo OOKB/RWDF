@@ -14,3 +14,6 @@ light gray:   rgba(248,247,247,1)
 /**
 **/
 
+/* Navigation */
+ul.nav li, ul.nav li a { color:rgba(189,213,0,1); }
+
