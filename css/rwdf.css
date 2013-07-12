@@ -5,7 +5,7 @@
 
 Green:        rgba(189,213,0,1)
 Blue:         rgba(0,154,201,1)
-Gray:         rgba(135,136,134,1)
+Gray:         rgba(185,186,184,1)
 light gray:   rgba(248,247,247,1)
 
 **/
@@ -33,6 +33,10 @@ ul.nav li, ul.nav li a {
 
 h3 { /* Homepage Subhead */
   color:rgba(0,160,208,1);
+  }
+  
+footer {
+  color: rgba(185,186,184,1);
   }
 
 

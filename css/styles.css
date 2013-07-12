@@ -6,6 +6,10 @@
 .e-breadcrumb {
   margin:40px 0 10px 0;
   }
+  
+body {
+  padding-bottom:50px;
+  }
 
 
 /***** Modules ************************************/
@@ -13,7 +17,26 @@
 .container {
   margin: 0 auto;
   max-width: 1000px;
+  }  
+    
+hr {   
+  height:3px;
+  border:0;
+  margin:0;
+  padding:0;
   }
+  
+.hr-nav {
+  border-top:20px white;
+  clear:both;
+  }
+  
+.hr-footer {
+  margin-bottom:20px;
+  clear:both;
+  }
+
+/* Navbar */
 
 .navbar {
   margin: 50px 0 0 0;
@@ -21,6 +44,7 @@
   
 .navbar ul {
   margin-top:55px;
+  margin-bottom:0;
   list-style-type: none;
   float:right;
   }
@@ -34,16 +58,32 @@
   display: block;
   float: left;
   }
-  
+ 
+/* Jumbotron */
+ 
 .jumbotron {
-  margin: 75px 50px;
+  background: url("../img/diag.gif") repeat
   }
   
-hr {   
-  height:3px;
-  border: 0;
-  margin:10px 0;
+.jumbo-text {
+  margin:0 42px;
+  padding: 75px 50px;
+  background-color: #fff;  
   }
+  
+/* Homepage */
+  
+.home-content{
+  padding-top:25px;
+  padding-bottom:50px;
+  }
+ 
+.bottom-divider {
+  height:40px;  
+  background: url("../img/diag.gif") repeat
+  } 
+
+/* Inner Pages */
   
 .sidebar {
   background-color:#f2f2f2;
@@ -101,6 +141,7 @@ label {
 .filters li {
   line-height: 1.5em;
   }
+
   
 
 /**** Isotope CSS3 transitions ****/
