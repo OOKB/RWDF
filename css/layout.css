@@ -35,6 +35,7 @@ hr {
   margin-bottom:20px;
   clear:both;
   }
+  
 
 /* Navbar */
 
@@ -58,6 +59,10 @@ hr {
   display: block;
   float: left;
   }
+  
+.logo {
+  padding-bottom:20px;
+  }
  
 /* Jumbotron */
  
@@ -67,7 +72,7 @@ hr {
   
 .jumbo-text {
   margin:0 42px;
-  padding: 75px 50px;
+  padding: 50px 25px;
   background-color: #fff;  
   }
   
@@ -77,12 +82,16 @@ hr {
   padding-top:25px;
   padding-bottom:75px;
   }
+  
+.home-content p {
+  margin-top:10px;
+  width:85%;
+  }
+  
+.home-content h3 {
+  width:85%;
+  }
  
-.diag-divider {
-  height:40px;  
-  background: url("../img/diag.gif") repeat
-  } 
-
 /* Inner Pages */
   
 .sidebar {
@@ -141,7 +150,18 @@ label {
 .filters li {
   line-height: 1.5em;
   }
+  
+/* Footer */
 
+.diag-divider {
+  height:40px;  
+  background: url("../img/diag.gif") repeat
+  } 
+
+.socialicon {
+  float:left;
+  margin: 5px 10px 0 0;
+  }
   
 
 /**** Isotope CSS3 transitions ****/
