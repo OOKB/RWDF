@@ -27,13 +27,8 @@ body {
   
   
 .jumbotron {
-  margin: 80px 0;
+  margin: 150px 50px 75px 50px;
   }
-	  
-.inner .jumbotron {
-  margin: 60px 0;
-  }
-	  
   
 .sidebar {
   background-color:#f2f2f2;
