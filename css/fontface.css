@@ -11,6 +11,7 @@ html {
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size:1.5rem;
   }
 
 h1, h2, h3, h4, h5 {
@@ -49,8 +50,8 @@ h2 { /* Inner Page */
 /* Page Styles */
   
 h3 { /* Inner Page Head */
-	font-size:20px;
-	margin:30px 0 0 0;
+	font-size:2.4rem;
+	margin:30px 0 10px 0;
   }  
   
 h4 { /* Inner Page Subhead */
