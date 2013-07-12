@@ -26,6 +26,30 @@ ul.nav li {
   font-weight:300;
   }
 
+/** tweaks for @media queries */
+
+@media (min-width: 979px) {
+
+  .jumbo-text h1 { /* Homepage */
+    font-size:7.5rem;
+    margin-bottom:20px;
+    padding:0 100px;
+    line-height: 1.125;
+    }
+    
+  h2 { /* Inner Page */
+    font-size:42px;
+    margin-bottom:20px;
+    }
+    
+  .jumbo-text .lead {
+    font-size:2.4rem;
+    font-weight:300;
+    line-height:1.33;
+    }
+  
+}
+
 
 /* Jumbotron Styles */
 
@@ -33,35 +57,17 @@ ul.nav li {
   text-align: center;
   }
   
-h1 { /* Homepage */
-	font-size:7.5rem;
-	margin-bottom:20px;
-	padding:0 100px;
-	line-height: 1.125;
-	}
-	
-h2 { /* Inner Page */
-	font-size:42px;
-  margin-bottom:20px;
-	}
-	
-.lead {
-	font-size:2.4rem;
-	font-weight:300;
-  line-height:1.33;
-	}
-	
-	
+  
 /* Page Styles */
   
 h3 { /* Inner Page Head */
-	font-size:2.4rem;
-	margin:30px 0 10px 0;
+  font-size:2.4rem;
+  margin:30px 0 10px 0;
   }  
   
 h4 { /* Inner Page Subhead */
-	font-size:14px;
-	margin:20px 0 0 0;
+  font-size:14px;
+  margin:20px 0 0 0;
   }
   
 

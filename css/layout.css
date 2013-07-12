@@ -14,6 +14,8 @@ body {
 
 /***** Modules ************************************/
 
+/* this needs to be tweaked based on the media-queries from the responsive CSS file */
+/* right now it is not optimal */
 .container {
   margin: 0 auto;
   max-width: 1000px;
@@ -25,12 +27,7 @@ hr {
   margin:0;
   padding:0;
   }
-  
-.hr-nav {
-  border-top:20px white;
-  clear:both;
-  }
-  
+
 .hr-footer {
   margin-bottom:20px;
   clear:both;
