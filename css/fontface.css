@@ -1,1 +1,50 @@
 /* @Font-Face declarations and basic typographic rules */
+
+/* Base Styles */
+
+body {}
+
+
+/* Nav Styles */
+
+
+
+/* Jumbotron Styles */
+
+.jumbotron {
+  text-align: center;
+  }
+  
+
+h1 { /* Homepage */
+	font-size:75px;
+	}
+	
+h2 { /* Inner Page */
+	font-size:42px;
+	}
+	
+.lead {
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:24px;
+	font-style:italic;
+	line-height:1.25;
+	}
+	
+	
+/* Page Styles */
+  
+h3 { /* Inner Page Head */
+	font-size:20px;
+	margin:30px 0 0 0;
+  }  
+  
+h4 { /* Inner Page Subhead */
+	font-size:14px;
+	margin:20px 0 0 0;
+  }
+
+h1, h2, h3 {
+  line-height: 1.25em;
+  }
+  
