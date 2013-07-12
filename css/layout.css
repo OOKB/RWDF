@@ -40,34 +40,26 @@ hr {
 /* Navbar */
 
 .navbar {
-  margin: 50px 0 0 0;
+  margin-top: 20px;
+  margin-bottom: 0;
   }
+  
+nav.navbar a.logo {
+  display: block;
+  float:left;
+}
 
 nav.navbar > .container {
   border-bottom: 3px solid rgba(248,247,247,1);
+  padding-bottom: 20px;
   }
-  
-.navbar ul {
-  margin-top:55px;
-  margin-bottom:0;
-  list-style-type: none;
-  float:right;
-  }
-  
-.navbar li {
-  float:left;
-  margin-left:20px;
-  }
-  
-.logo {  
-  display: block;
-  float: left;
-  }
-  
-.logo {
-  padding-bottom:20px;
-  }
- 
+
+.navbar ul.nav {
+  position: relative;
+  top: 54px;
+}
+
+
 /* Jumbotron */
  
 .jumbotron {
