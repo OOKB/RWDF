@@ -1086,6 +1086,10 @@
   .navbar .nav-collapse .nav.pull-right {
     float: none;
     margin-left: 0;
+    /*fixing custom RWDF styling */
+    top:0;
+    margin-top: 20px;
+    margin-bottom: 0;
   }
   .nav-collapse,
   .nav-collapse.collapse {
