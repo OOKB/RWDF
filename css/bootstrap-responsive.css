@@ -999,7 +999,8 @@
   .nav-collapse .nav > li > a,
   .nav-collapse .dropdown-menu a {
     padding: 9px 15px;
-    font-weight: bold;
+    text-align: right;
+/*     font-weight: bold; */
 /*     color: #777777; */
     -webkit-border-radius: 3px;
        -moz-border-radius: 3px;
@@ -1098,6 +1099,7 @@
   }
   .navbar .btn-navbar {
     display: block;
+    margin-top: 42px; /*custom RWDF style*/
   }
   .navbar-static .navbar-inner {
     padding-right: 10px;
