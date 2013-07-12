@@ -23,12 +23,6 @@ a { color:rgba(189,213,0,1); }
   
 a:hover { color:rgba(0,154,201,1); }
 
-
-ul.nav li, ul.nav li a { 
-  color:rgba(189,213,0,1); 
-  }
-
-
 h3 { /* Homepage Subhead */
   color:rgba(0,160,208,1);
   }
@@ -38,7 +32,6 @@ footer {
   }
   
 footer a {color:rgba(185,186,184,1)}
-
 
 /* Graphic Elements */
 
