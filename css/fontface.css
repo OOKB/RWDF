@@ -15,13 +15,15 @@ body {
   }
 
 h1, h2, h3, h4, h5 {
-  font-family: 'Playfair Display', Georgia, serif;  
+  font-family: 'Playfair Display', Georgia, serif;
+  line-height: 1.25em;  
   }
 
 /* Nav Styles */
 
 nav li {
-  
+  font-size:1.8rem;
+  font-weight:300;
   }
 
 
@@ -57,9 +59,5 @@ h3 { /* Inner Page Head */
 h4 { /* Inner Page Subhead */
 	font-size:14px;
 	margin:20px 0 0 0;
-  }
-
-h1, h2, h3 {
-  line-height: 1.25em;
   }
   

@@ -2,12 +2,6 @@
 /* CSS Document */
 
 /***** Base Styles ************************************/
-
-body {
-  padding-top: 20px;
-  padding-bottom: 60px;
-  }
-
   
 .e-breadcrumb {
   margin:40px 0 10px 0;
@@ -20,14 +14,35 @@ body {
   margin: 0 auto;
   max-width: 1000px;
   }
-	  
-.container > hr {
-  margin: 20px 0;
+
+.navbar {
+  margin: 50px 0 0 0;
   }
   
+.navbar ul {
+  margin-top:55px;
+  list-style-type: none;
+  float:right;
+  }
+  
+.navbar li {
+  float:left;
+  margin-left:20px;
+  }
+  
+.logo {  
+  display: block;
+  float: left;
+  }
   
 .jumbotron {
-  margin: 150px 50px 75px 50px;
+  margin: 75px 50px;
+  }
+  
+hr {   
+  height:3px;
+  border: 0;
+  margin:10px 0;
   }
   
 .sidebar {
