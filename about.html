@@ -75,6 +75,7 @@
       <li class="active"><a href="#tab-values" data-toggle="tab">Our Values</a></li>
       <li><a href="#tab-founders" data-toggle="tab">Bob &amp; Florence Deutsch</a></li>
       <li><a href="#tab-staff" data-toggle="tab">Staff &amp; Directors</a></li>
+      <li><a href="#tab-staff-pics" data-toggle="tab">Staff &amp; Directors 2</a></li>
       <li><a href="#tab-press" data-toggle="tab">Press &amp; Resources</a></li>
       </ul>
     
@@ -117,7 +118,6 @@
             </div>
                           
         <div class="tab-pane" id="tab-staff"> 
-          
             <div class="half-column">
               <h4>Jane Brown, President and Executive Director</h4>
               <p>Jane has been guiding the foundation’s grant making and operations since 1995.  Previously she worked as an editor, writer and journalist, as managing editor of Baltimore Magazine and a features editor for the Baltimore Sun. She is a graduate of the University of Maryland at College Park and SUNY Stony Brook.</p>
@@ -135,6 +135,34 @@
               <p>Neil joined the foundation staff in 2010. He spent many years raising money for colleges and universities including MIT, Duke Medical Center and the University of Baltimore. He received his undergraduate degree from Haverford College and his MBA from Duke University.</p>          
               </div>
             <div class="half-column">
+              <h4>Jacqueline Tyson, Executive Assistant</h4>
+              <p>Jackie, a native Baltimorean, joined the foundation’s staff in 2010. She spent a number of years working in the nonprofit sector. She received her undergraduate degree in business and management from the Johns Hopkins University and is looking to pursue a Master's Degree in Nonprofit Management in the very near future.</p>
+            </div>
+            </div>
+            
+                <div class="tab-pane" id="tab-staff-pics"> 
+            <div class="onethird-column">
+              <img src="img/bio_jane.jpg">
+              <h4>Jane Brown, President and Executive Director</h4>
+              <p>Jane has been guiding the foundation’s grant making and operations since 1995.  Previously she worked as an editor, writer and journalist, as managing editor of Baltimore Magazine and a features editor for the Baltimore Sun. She is a graduate of the University of Maryland at College Park and SUNY Stony Brook.</p>
+              </div>
+            <div class="onethird-column">
+            <img src="img/bio_david.jpg">            
+              <h4>David Deutsch, Director</h4>
+              <p>David teaches high school mathematics in Newton, Massachusetts. He received his undergraduate degree in mathematics from the University of Maryland College Park and completed graduate work in mathematics at Boston University. He began his career as a software engineer specializing in simulation software. His current focus is on curriculum development that can make mathematics more accessible to a diverse population of students.</p>
+              </div>
+            <div class="onethird-column"> 
+              <img src="img/bio_mac.jpg">            
+              <h4>Laurens “Mac” MacLure, Director  </h4>          
+              <p>Mac is President and CEO of RWD Technologies. Previously he held a number of management positions at Pioneer EyeCare and PHH Corporation. Mac received his J.D. from the University of Maryland School of Law and his B.A. in Economics from Bucknell University.</p>
+              </div>
+            <div class="onethird-column">
+              <img src="img/bio_neil.jpg">            
+              <h4>Neil Didriksen, Chief Operating Officer</h4>
+              <p>Neil joined the foundation staff in 2010. He spent many years raising money for colleges and universities including MIT, Duke Medical Center and the University of Baltimore. He received his undergraduate degree from Haverford College and his MBA from Duke University.</p>          
+              </div>
+            <div class="onethird-column">
+              <img src="img/bio_jane.jpg">            
               <h4>Jacqueline Tyson, Executive Assistant</h4>
               <p>Jackie, a native Baltimorean, joined the foundation’s staff in 2010. She spent a number of years working in the nonprofit sector. She received her undergraduate degree in business and management from the Johns Hopkins University and is looking to pursue a Master's Degree in Nonprofit Management in the very near future.</p>
             </div>
@@ -224,12 +252,20 @@
   })
   </script>
   
-  
-    <script>
-    $('article.is-collapsed').readmore({
-      maxHeight: 80,
+  <script>
+    $(document).ready(function () { 
+    if (location.hash.substr(0,2) == "#!") {
+      $("a[href='#" + location.hash.substr(2) + "']").tab("show");
+      }
+      $("a[data-toggle='tab']").on("shown", function (e) {
+        var hash = $(e.target).attr("href");
+        if (hash.substr(0,1) == "#") {
+            location.replace("#!" + hash.substr(1));
+        }
+      });
     });
   </script>
+  
   
 
   </body>

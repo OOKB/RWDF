@@ -130,10 +130,19 @@ nav.navbar > .container {
  border-bottom: 3px solid rgba(248,247,247,1);  
  }
   
-.half-column img {
+.onethird-column img {
+  margin-bottom:-10px;
   margin-top:20px;
-  float:left;
   }
+  
+.onethird-column {
+ width:30%;
+ float: left;
+ margin-right:3%;
+ min-height:500px;
+   border-bottom: 3px solid rgba(248,247,247,1);  
+ }
+  
 
 .sidebar {
   background-color:#f2f2f2;
