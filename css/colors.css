@@ -23,7 +23,7 @@ a { color:rgba(189,213,0,1); }
   
 a:hover { color:rgba(0,154,201,1); }
 
-h3 { /* Homepage Subhead */
+h3, h4 { /* Subheads */
   color:rgba(0,160,208,1);
   }
   
