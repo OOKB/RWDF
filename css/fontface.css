@@ -25,6 +25,10 @@ ul.nav li {
   font-size:1.8rem;
   font-weight:300;
   }
+  
+.side-nav ul li {
+  font-size: 1.4rem; 
+  }
 
 /** tweaks for @media queries */
 

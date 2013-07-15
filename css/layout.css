@@ -79,6 +79,45 @@ nav.navbar > .container {
   padding-bottom:10px;
   border-bottom: 3px solid rgba(248,247,247,1); 
   }
+  
+/* Tabs */
+  
+.nav-tabs {
+  border-bottom: 3px solid rgba(248,247,247,1); 
+  }
+  
+.nav-tabs > li > a {
+  font-size: 1.4rem;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 20px;
+  -webkit-border-radius: 4px 4px 0 0;
+     -moz-border-radius: 4px 4px 0 0;
+          border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+  color: #555555;
+  cursor: default;
+  background-color: rgba(248,247,247,1);
+  } 
+  
+.side-nav {
+  margin-top:30px;
+  background-color: rgba(248,247,247,1);
+  height:100%;
+  }
+  
+  
+  
+.side-nav ul li {
+  font-size: 1.4rem;
+  list-style: none;
+  }
+  
+
  
 /* Inner Pages */
 
@@ -86,9 +125,7 @@ nav.navbar > .container {
   width:100%;
   margin-top: 30px;
   }
-  
-.nav-tabs
-  
+
 .sidebar {
   background-color:#f2f2f2;
   border: #eee solid 1px;
