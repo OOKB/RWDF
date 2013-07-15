@@ -81,6 +81,13 @@ nav.navbar > .container {
   }
  
 /* Inner Pages */
+
+.inline-image {
+  width:100%;
+  margin-top: 30px;
+  }
+  
+.nav-tabs
   
 .sidebar {
   background-color:#f2f2f2;
