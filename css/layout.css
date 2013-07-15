@@ -52,13 +52,19 @@ nav.navbar > .container {
   
 .jumbo-text {
   margin:0 42px;
-  padding: 50px 25px;
+  padding: 50px 100px;
   background-color: #fff;  
   }
   
+.jumbo-text.inner {
+  margin:0 42px;
+  padding: 30px 100px;  
+  }
+  
+  
 /* Homepage */
   
-.home-content{
+.row-fluid {
   padding-top:25px;
   padding-bottom:75px;
   }
@@ -139,6 +145,7 @@ label {
   height:40px;  
   background: url("../img/diag.gif") repeat;
   border-bottom: 3px solid rgba(248,247,247,1); 
+  margin-bottom: 20px;
   } 
 
 .socialicon {

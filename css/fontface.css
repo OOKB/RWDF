@@ -30,25 +30,30 @@ ul.nav li {
 
 @media (min-width: 979px) {
 
-  .jumbo-text h1 { /* Homepage */
-    font-size:7.5rem;
-    margin-bottom:20px;
-    padding:0 100px;
-    line-height: 1.125;
-    }
+.jumbo-text h1 { /* Homepage */
+  font-size:7.5rem;
+  margin-bottom:20px;
+  padding:0 100px;
+  line-height: 1.125;
+  }
     
-  h2 { /* Inner Page */
-    font-size:42px;
-    margin-bottom:20px;
-    }
+.jumbo-text.inner h1 { /* Inner Pages */
+  font-size:5rem;
+  margin-bottom: 10px;
+  padding:0 50px;
+  }
     
-  .jumbo-text .lead {
-    font-size:2.4rem;
-    font-weight:300;
-    line-height:1.33;
-    }
+        
+.jumbo-text .lead {
+  font-size:2.4rem;
+  font-weight:300;
+  line-height:1.33;
+  }
   
-}
+.jumbo-text.inner .lead {
+  font-size:2.0rem;
+  }
+  
 
 
 /* Jumbotron Styles */
