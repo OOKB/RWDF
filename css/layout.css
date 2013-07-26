@@ -126,37 +126,74 @@ nav.navbar > .container {
   width:45%;
   float: left;
   margin-right:5%;
-  min-height:220px;
-  border-bottom: 3px solid rgba(248,247,247,1);  
+  border-bottom: 3px solid rgba(248,247,247,1);
+  overflow:hidden;
  }
-  
-.onethird-column img {
-  margin-bottom:-10px;
-  margin-top:20px;
+ 
+.brick_pic_left, .brick_pic_right {
+  width:45%;
+  margin-right:5%;
+  min-height: 220px;
+  float:left;
+  border-bottom: 3px solid rgba(248,247,247,1);
+ }
+ 
+.brick_pic_left p, .brick_pic_right p {
+  text-align:justify;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+ }
+ 
+.brick_pic_left img, .brick_pic_right img {
+  position:relative;
+  margin: 20px 0 20px 0;
+ }
+ 
+.brick_pic_left img {
+  margin-right:15px;
+  float:left;
+  left:0;
   }
   
-.onethird-column {
-  width:30%;
-  float: left;
-  position:absolute;
-  margin-right:3%;
-  min-height:500px;
-  border-bottom: 3px solid rgba(248,247,247,1);  
- }
+.brick_pic_right img {
+  margin-left:15px;
+  float:right;
+  right:0;
+  }
+ 
+.top-15 {
+  padding-top:15px;
+  }
+  
+.plain {
+  min-height: 200px;
+  }
  
  
-/* graphic element esf decided to axe
-.triangle {
-  position:relative;
-  top:213px;
-  left:91%;
-  border-color: transparent rgba(0,154,201,1) rgba(0,154,201,1) transparent;
-  border-style:solid;
-  border-width:20px;
-  width:0;
-  height:0;
-} 
-*/
+@-webkit-keyframes slideIn { from { height:45px; } to { min-height:200px; } }
+@-moz-keyframes slideIn { from { height:45px; } to { min-height:200px; } }
+@keyframes slideIn { from { height:45px; } to { min-height:200px; } }
+
+.slide-in {
+    height:45px; 
+    
+    animation:slideIn ease-in 1;
+    -webkit-animation:slideIn ease-in 1;
+    -moz-animation:slideIn ease-in 1;
+    
+    animation-fill-mode:forwards;
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+ 
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    
+    animation-delay: .5s;
+    -webkit-animation-delay: .5s;
+    -moz-animation-delay: .5s;
+}
+ 
   
 
 .sidebar {

@@ -4236,6 +4236,7 @@ input[type="submit"].btn.btn-mini {
 
 .tabbable {
   *zoom: 1;
+  min-height: 300px;
 }
 
 .tabbable:before,
