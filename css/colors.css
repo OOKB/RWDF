@@ -40,4 +40,7 @@ hr { background-color:rgba(248,247,247,1); }
   
 .socialicon { background-color:rgba(185,186,184,1); }
 
-.socialicon:hover { background-color:rgba(0,154,201,1); }
+.socialicon-color { background-color:rgba(189,213,0,1); }
+
+.socialicon:hover, .socialicon-color:hover { background-color:rgba(0,154,201,1); }
+
