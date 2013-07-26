@@ -123,11 +123,11 @@ nav.navbar > .container {
   }
   
 .half-column {
- width:45%;
- float: left;
- margin-right:5%;
- min-height:250px;
- border-bottom: 3px solid rgba(248,247,247,1);  
+  width:45%;
+  float: left;
+  margin-right:5%;
+  min-height:250px;
+  border-bottom: 3px solid rgba(248,247,247,1);  
  }
   
 .onethird-column img {
@@ -136,12 +136,27 @@ nav.navbar > .container {
   }
   
 .onethird-column {
- width:30%;
- float: left;
- margin-right:3%;
- min-height:500px;
-   border-bottom: 3px solid rgba(248,247,247,1);  
+  width:30%;
+  float: left;
+  position:absolute;
+  margin-right:3%;
+  min-height:500px;
+  border-bottom: 3px solid rgba(248,247,247,1);  
  }
+ 
+ 
+/* graphic element esf decided to axe
+.triangle {
+  position:relative;
+  top:213px;
+  left:91%;
+  border-color: transparent rgba(0,154,201,1) rgba(0,154,201,1) transparent;
+  border-style:solid;
+  border-width:20px;
+  width:0;
+  height:0;
+} 
+*/
   
 
 .sidebar {
@@ -175,7 +190,7 @@ label {
   
 .brick {
   padding-bottom:20px;
-  border-bottom:1px solid #bbbbbb;
+  border-bottom: 3px solid rgba(248,247,247,1); 
   }
   
 .brick h3 {
