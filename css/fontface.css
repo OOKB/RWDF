@@ -34,12 +34,13 @@ ul.nav li {
 
 @media (min-width: 979px) {
 
-.jumbo-text h1, .carousel-inner h1 { /* Homepage */
+.jumbo-text h1 { /* Homepage */
   font-size:7.5rem;
   margin-bottom:20px;
   padding:0 100px;
   line-height: 1.125;
   }
+
     
 .jumbo-text.inner h1 { /* Inner Pages */
   font-size:5rem;
@@ -47,7 +48,7 @@ ul.nav li {
   padding:0 50px;
   } 
         
-.jumbo-text .lead, .carousel-inner .lead {
+.jumbo-text .lead {
   font-size:2.4rem;
   font-weight:300;
   line-height:1.33;
@@ -57,6 +58,20 @@ ul.nav li {
   font-size:2.0rem;
   }
   
+  
+.hero h1 { /* Homepage */
+  font-size:6.5rem;
+  margin-bottom:20px;
+  line-height: 1.125;
+  }
+  
+.hero-caption {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size:1.3rem;
+  color:rgba(185,186,184,1);
+  text-align: right;
+  margin-top: 10px;
+  }
 
 /* Jumbotron Styles */
 

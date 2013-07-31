@@ -61,6 +61,24 @@ nav.navbar > .container {
   padding: 30px 100px;  
   }
   
+/* Hero */
+ 
+.hero {
+  background: url("../img/allosphere.jpg");
+  height:450px;  
+  }
+  
+.hero-main {  
+  background-color:rgba(0,0,0,0.5);
+  padding:20px 40px;
+  margin:40px 0 0 0;
+  }
+  
+.hero h1, .hero p {
+  color:rgba(255,255,255,1);
+  
+  }  
+  
   
 /* Homepage */
   
