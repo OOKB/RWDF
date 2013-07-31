@@ -34,7 +34,7 @@ ul.nav li {
 
 @media (min-width: 979px) {
 
-.jumbo-text h1 { /* Homepage */
+.jumbo-text h1, .carousel-inner h1 { /* Homepage */
   font-size:7.5rem;
   margin-bottom:20px;
   padding:0 100px;
@@ -48,7 +48,7 @@ ul.nav li {
   }
     
         
-.jumbo-text .lead {
+.jumbo-text .lead, .carousel-inner .lead {
   font-size:2.4rem;
   font-weight:300;
   line-height:1.33;
@@ -58,11 +58,17 @@ ul.nav li {
   font-size:2.0rem;
   }
   
+.carousel-inner .feature h1 {  
+  font-size:5rem;
+  margin-bottom: 10px;
+  padding:0px 50px
+  }
+  
 
 
 /* Jumbotron Styles */
 
-.jumbotron {
+.jumbotron, .carousel {
   text-align: center;
   }
   
