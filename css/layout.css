@@ -74,6 +74,7 @@ nav.navbar > .container {
   margin:0 42px;
   background-color: #fff;
   height: 380px;
+  overflow: hidden;
   }
 
 .carousel .item {
@@ -86,6 +87,24 @@ nav.navbar > .container {
   font-size: 120px;
   border: 0;
   z-index: 10;
+  }
+  
+.carousel .item .full img {
+  width:100%;
+  }
+  
+.full, .full h1 {
+  padding:0 !important;
+  }
+  
+.overlay {
+  position: absolute;
+  top:10px;
+  left:500px;
+  /*background:rgba(0,0,0,.5);*/
+  color:rgba(0,0,0,1) !important;
+  text-align: left;
+  margin: 25px;
   }
   
   

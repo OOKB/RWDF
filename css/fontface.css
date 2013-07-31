@@ -57,22 +57,19 @@ ul.nav li {
   font-size:2.0rem;
   }
   
-.carousel-inner .feature h1 {  
+.carousel-inner .feature h1, .carousel-inner .full h1 {  
   font-size:5rem;
   margin-bottom: 10px;
-  padding:0px 50px
+  padding: 0 !important;
   }
   
-.carousel .feature {
+.carousel-inner .feature, .carousel-inner .full {
   text-align: left;
   padding: 0;
   }
   
-.carousel .feature h1 {
-  padding: 0;
-  }
   
-.carousel .feature .lead {
+.carousel-inner .feature .lead {
   font-size:2.0rem;
   font-weight:300;
   line-height:1.33;
@@ -81,6 +78,8 @@ ul.nav li {
 .carousel .feature h3 {
   margin-top: 138px;
   }
+  
+.full {color:(255,255,255,1) !important}
   
 
 
