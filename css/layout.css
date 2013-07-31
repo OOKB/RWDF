@@ -52,7 +52,7 @@ nav.navbar > .container {
   
 .jumbo-text {
   margin:0 42px;
-  padding: 50px 100px;
+  padding: 50px 140px;
   background-color: #fff;  
   }
   
@@ -73,10 +73,11 @@ nav.navbar > .container {
 .carousel {        
   margin:0 42px;
   background-color: #fff;
-  height: 400px;
+  height: 380px;
   }
 
-.carousel-inner {
+.carousel .item {
+  padding: 50px 140px;
   }
 
 .carousel-control {
@@ -86,15 +87,6 @@ nav.navbar > .container {
   border: 0;
   z-index: 10;
   }
-
-.carousel .item {
-  padding: 60px 140px;
-  }
-    
-.carousel img {
-  }
-
-
   
   
 /* Homepage */
