@@ -57,35 +57,10 @@ ul.nav li {
   font-size:2.0rem;
   }
   
-.carousel-inner .feature h1, .carousel-inner .full h1 {  
-  font-size:5rem;
-  margin-bottom: 10px;
-  padding: 0 !important;
-  }
-  
-.carousel-inner .feature, .carousel-inner .full {
-  text-align: left;
-  padding: 0;
-  }
-  
-  
-.carousel-inner .feature .lead {
-  font-size:2.0rem;
-  font-weight:300;
-  line-height:1.33;
-  }
-  
-.carousel .feature h3 {
-  margin-top: 138px;
-  }
-  
-.full {color:(255,255,255,1) !important}
-  
-
 
 /* Jumbotron Styles */
 
-.jumbotron, .carousel {
+.jumbotron {
   text-align: center;
   }
   
