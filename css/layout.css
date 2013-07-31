@@ -132,11 +132,15 @@ nav.navbar > .container {
   }
   
 .plain {
-  height: 200px;
+  height: 240px;
   margin-right:0 !important;  
   margin-left:0 !important;
   border-bottom: 3px solid rgba(248,247,247,1);
   overflow:hidden;
+  }
+  
+.plain p, .slide-in p {
+  padding-right:15px;
   }
   
  
