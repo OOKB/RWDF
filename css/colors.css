@@ -27,6 +27,11 @@ a:hover { color:rgba(0,154,201,1); }
 h3, h4 { /* Subheads */
   color:rgba(0,160,208,1);
   }
+
+.plain h5 { /* Subheads */
+  color:rgba(110,176,0,1);
+  }
+
   
 footer {
   color: rgba(185,186,184,1);
