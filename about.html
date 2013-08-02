@@ -73,7 +73,7 @@
           <ul class="side-nav span2 id="myTab"">
             <li class="active"><a href="#tab-values" data-toggle="tab">Our Values</a></li>
             <li><a href="#tab-founders" data-toggle="tab">Robert &amp; Florence</a></li>
-            <li><a href="#tab-staff" data-toggle="tab">Directors &amp; Staff</a></li>
+            <li><a class="staff" href="#tab-staff" data-toggle="tab">Directors &amp; Staff</a></li>
             <li><a href="#tab-press" data-toggle="tab">Press &amp; Resources</a></li>
           </ul>
       
@@ -305,16 +305,16 @@
     <!-- make tabs work, etc. -->
     <script>
       $('#myTab a').click(function (e) {
-      e.preventDefault();
-      $(this).tab('show');
-    })
+        e.preventDefault();
+        $(this).tab('show');
+      })
     </script>
     
     <script>
       $(document).ready(function () { 
-      if (location.hash.substr(0,2) == "#!") {
-        $("a[href='#" + location.hash.substr(2) + "']").tab("show");
-        }
+        if (location.hash.substr(0,2) == "#!") {
+          $("a[href='#" + location.hash.substr(2) + "']").tab("show");
+          }
         $("a[data-toggle='tab']").on("shown", function (e) {
           var hash = $(e.target).attr("href");
           if (hash.substr(0,1) == "#") {
@@ -327,7 +327,7 @@
     <!-- make all the bios the same height with JS, not CSS -->
     <!-- from here: http://stackoverflow.com/questions/6781031/use-jquery-css-to-find-the-tallest-of-all-elements -->
     <script>
-      $(document).ready(function() {
+      $('#myTab a.staff').click(function() {
         var maxHeight = -1;
     
         $('#tab-staff .plain').each(function() {
