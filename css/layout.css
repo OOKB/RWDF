@@ -60,18 +60,24 @@ nav.navbar > .container {
   margin:0 42px;
   padding: 30px 100px;  
   }
-  
+
 /* Hero */
  
 .hero {
+  }
+
+.index .hero {
   background: url("../img/allosphere.jpg");
   height:450px;  
   }
   
 .hero-main {  
-  background-color:rgba(0,0,0,0.33);
+  background-color:rgba(7,153,200,.33);
   padding:20px 40px;
-  margin:40px 0 0 0;
+  margin:0;
+  position: relative;
+  z-index: 9999;
+  top: 100px;
   }
   
 .hero h1, .hero p {
@@ -79,6 +85,10 @@ nav.navbar > .container {
   
   }  
   
+.hero .rev-offset2 {
+  margin-left: -180px;
+}
+
   
 /* Homepage */
   
