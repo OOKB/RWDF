@@ -17,7 +17,7 @@ body {
 /* this needs to be tweaked based on the media-queries from the responsive CSS file */
 /* right now it is not optimal */
 .container {
-  margin: 0 auto;
+  margin: 0 auto 30px auto;
   }  
 
 /* Navbar */
@@ -77,13 +77,18 @@ nav.navbar > .container {
 }
 
 .index .hero .row div.text {
-  position: absolute;
-  bottom: 0;
   background: #009CC1;
   background: rgba(0,156,193,1);
-  margin: 0;
+  position: absolute;
+  bottom: 0;
   float: none;
+  margin: 0;
 }
+
+.index .hero .row div.text * {
+  padding: 15px;
+}
+
 
 
 /* Homepage */
