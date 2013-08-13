@@ -62,36 +62,16 @@ nav.navbar > .container {
   }
 
 /* Hero */
- 
+/*=========================*/
 .hero {
-  }
-
-.index .hero {
-  background: url("../img/allosphere.jpg");
-  height:450px;  
-  }
-  
-.hero-main {  
-  background-color:rgba(7,153,200,.33);
-  padding:20px 40px;
-  margin:0;
-  position: relative;
-  z-index: 9999;
-  top: 100px;
   }
   
 .hero h1, .hero p {
-  color:rgba(255,255,255,1);
-  
-  }  
-  
-.hero .rev-offset2 {
-  margin-left: -180px;
-}
+  color: black;
+  }
 
-  
 /* Homepage */
-  
+/*=========================*/
 .row-fluid {
   padding-top:25px;
   padding-bottom:75px;
@@ -108,10 +88,8 @@ nav.navbar > .container {
   border-bottom: 3px solid rgba(248,247,247,1); 
   }
   
-  
 /* Side Nav */
-  
-  
+/*=========================*/
 .side-nav {
   list-style-type: none;
   padding-top: 20px;
@@ -145,13 +123,12 @@ nav.navbar > .container {
 .side-nav i { margin: 3px 3px 0 0 }
  
 /* Inner Pages */
-
+/*=========================*/
 .inline-image {
   width:100%;
   margin-top: 30px;
   }
-  
- 
+
 .top-15 {
   padding-top:15px;
   }
@@ -168,41 +145,9 @@ nav.navbar > .container {
   overflow:hidden;
   }
   
-.plain p, .slide-in p {
+.plain p {
   padding-right:15px;
   }
-  
- 
- 
-@-webkit-keyframes slideIn { from { height:45px; } to { min-height:220px; } }
-@-moz-keyframes slideIn { from { height:45px; } to { min-height:220px; } }
-@keyframes slideIn { from { height:45px; } to { min-height:220px; } }
-
-.slide-in {
-  height:45px; 
-  margin-right:0 !important;  
-  margin-left:0 !important;
-  border-bottom: 3px solid rgba(248,247,247,1);
-  overflow:hidden;
-    
-    animation:slideIn ease-in 1;
-    -webkit-animation:slideIn ease-in 1;
-    -moz-animation:slideIn ease-in 1;
-    
-    animation-fill-mode:forwards;
-    -webkit-animation-fill-mode:forwards;
-    -moz-animation-fill-mode:forwards;
- 
-    animation-duration: 1s;
-    -webkit-animation-duration: 1s;
-    -moz-animation-duration: 1s;
-    
-    animation-delay: .5s;
-    -webkit-animation-delay: .5s;
-    -moz-animation-delay: .5s;
-}
- 
-  
 
 .sidebar {
   background-color:#f2f2f2;
@@ -218,10 +163,6 @@ nav.navbar > .container {
   }
 
 form {
-  /*background-color:#f2f2f2;
-  border: #eee solid 1px;
-  padding:20px 40px 20px 20px;
-  border-radius: 7px;*/
   margin-top:20px;
   }
 
@@ -253,7 +194,7 @@ label {
   
   
 /* Footer */
-
+/*=========================*/
 .diag-divider {
   height:40px;  
   background: url("../img/diag.gif") repeat;
@@ -265,45 +206,4 @@ label {
   float:left;
   margin: 5px 10px 20px 0;
   }
-
-  
-
-/**** Isotope CSS3 transitions ****/
-
-.isotope-item {
-  z-index: 2;
-}
-
-.isotope-hidden.isotope-item {
-  pointer-events: none;
-  z-index: 1;
-}
-
-.isotope,
-.isotope .isotope-item {
-  -webkit-transition-duration: 0.8s;
-     -moz-transition-duration: 0.8s;
-      -ms-transition-duration: 0.8s;
-       -o-transition-duration: 0.8s;
-          transition-duration: 0.8s;
-}
-
-.isotope  .isotope-item {
-  -webkit-transition-property: height, width;
-     -moz-transition-property: height, width;
-      -ms-transition-property: height, width;
-       -o-transition-property: height, width;
-          transition-property: height, width;
-}
-
-.isotope .isotope-item {
-  -webkit-transition-property: opacity;
-     -moz-transition-property: opacity;
-      -ms-transition-property: opacity;
-       -o-transition-property: opacity;
-          transition-property: opacity;
-}
-  
-  
-
 
