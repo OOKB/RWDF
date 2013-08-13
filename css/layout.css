@@ -34,6 +34,7 @@ nav.navbar a.logo {
 
 nav.navbar > .container {
   border-bottom: 3px solid rgba(248,247,247,1);
+  margin-bottom: 0;
   padding-bottom: 20px;
   }
 
@@ -42,8 +43,8 @@ nav.navbar > .container {
   top: 54px;
 }
 
-
 /* Jumbotron */
+/* This is the big text areas on each of the sub-pages */
 /*=========================*/
 .jumbotron {
   background: url("../img/diag.gif") repeat;
@@ -61,7 +62,16 @@ nav.navbar > .container {
   padding: 30px 100px;  
   }
 
+
+
+/*=========================*/
+/*=========================*/
+/* Homepage */
+/*=========================*/
+/*=========================*/
+
 /* Hero */
+/* This is the big image area on the homepage */
 /*=========================*/
 .hero {
   margin-top: 30px;
@@ -89,10 +99,6 @@ nav.navbar > .container {
   padding: 15px;
 }
 
-
-
-/* Homepage */
-/*=========================*/
 .row-fluid {
   padding-top:25px;
   padding-bottom:75px;
