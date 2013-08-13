@@ -2,7 +2,7 @@
 /* CSS Document */
 
 /***** Base Styles ************************************/
-  
+/*=========================*/
 .e-breadcrumb {
   margin:40px 0 10px 0;
   }
@@ -13,7 +13,7 @@ body {
 
 
 /***** Modules ************************************/
-
+/*=========================*/
 /* this needs to be tweaked based on the media-queries from the responsive CSS file */
 /* right now it is not optimal */
 .container {
@@ -44,7 +44,7 @@ nav.navbar > .container {
 
 
 /* Jumbotron */
- 
+/*=========================*/
 .jumbotron {
   background: url("../img/diag.gif") repeat;
   border-bottom: 3px solid rgba(248,247,247,1); 
@@ -64,11 +64,27 @@ nav.navbar > .container {
 /* Hero */
 /*=========================*/
 .hero {
+  margin-top: 30px;
   }
   
 .hero h1, .hero p {
   color: black;
   }
+
+.index .hero .row,
+.index .hero .row img {
+  position: relative;
+}
+
+.index .hero .row div.text {
+  position: absolute;
+  bottom: 0;
+  background: #009CC1;
+  background: rgba(0,156,193,1);
+  margin: 0;
+  float: none;
+}
+
 
 /* Homepage */
 /*=========================*/
