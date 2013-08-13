@@ -2,6 +2,6 @@
 $(document).ready(function() {
   var blockwidth = $('.span4').width();
   var blockheight = blockwidth/1.32;
-  $('.triptych .span4').height(blockheight);
+  $('.triptych .trio').height(blockheight);
 });
 

@@ -62,8 +62,6 @@ nav.navbar > .container {
   padding: 30px 100px;  
   }
 
-
-
 /*=========================*/
 /*=========================*/
 /* Homepage */
@@ -77,18 +75,22 @@ nav.navbar > .container {
   margin-top: 30px;
   }
   
-.hero h1, .hero p {
-  color: black;
-  }
-
-.index .hero .row,
-.index .hero .row img {
+.hero .text * {
+  color: white;
+  margin: 0;
+}
+  
+.hero .row,
+.hero .row img,
+.index .triptych .trio,
+.index .triptych .span4 img {
   position: relative;
 }
 
-.index .hero .row div.text {
+.index .hero .row div.text,
+.overlay div.text {
   background: #009CC1;
-  background: rgba(0,156,193,1);
+  background: rgba(0,156,193,.5);
   position: absolute;
   bottom: 0;
   float: none;
@@ -99,22 +101,76 @@ nav.navbar > .container {
   padding: 15px;
 }
 
+.index .hero .row div.text.span8 h1 {
+  padding-bottom: 0;
+}
+
+.index .hero .row .tagline div.text {
+  background: #009CC1;
+  background: rgba(0,156,193,1);
+}
+
+/* Triptych info */
+.index .triptych .trio {
+  overflow: hidden;
+}
+
+.index .triptych .span4 img {
+  height: auto;
+  width: 100%;
+}
+
+.index .triptych .overlay img {
+  height: 100%;
+  width: auto;
+}
+
+.index .triptych .overlay div.text {
+  top: 0;
+  height: 50px;
+}
+
+.index .triptych .overlay div.text h3 {
+  color: white;
+  margin: 0;
+  padding: 10px;
+  font-weight: 400;
+}
+
+.trio h3 { margin: .25em 0; }
+.trio h3 a { color: white; font-weight: 400; }
+
+/* lower, more general stuff */
 .row-fluid {
   padding-top:25px;
   padding-bottom:75px;
   }
-  
-.home-content p {
-  margin-top:10px;
-  width:85%;
-  }
-  
+
 .home-content h3 {
-  width:85%;
   padding-bottom:10px;
   border-bottom: 3px solid rgba(248,247,247,1); 
   }
   
+.home-content p {
+  margin-top:10px;
+  }
+  
+.index .jumbotron {
+  background: none;
+  border-bottom: none;
+  margin: 0 auto;
+  }
+
+.index .jumbotron .diag-divider {
+  margin-bottom: 70px;
+  }
+
+.index .jumbotron .lead {
+  font-size: 3.3rem;
+  line-height: 1.3333;
+  }
+
+
 /* Side Nav */
 /*=========================*/
 .side-nav {
