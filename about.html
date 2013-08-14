@@ -316,15 +316,13 @@
     <!-- from here: http://stackoverflow.com/questions/6781031/use-jquery-css-to-find-the-tallest-of-all-elements -->
     <script>
       $(document).ready(function() {
-       var maxHeight = -1;
-      
-       $('.plain').each(function() {
-         maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
-       });
-      
-       $('.plain').each(function() {
-         $(this).height(maxHeight);
-       });
+        var maxHeight = -1;
+        $('.plain').each(function() {
+          maxHeight = maxHeight > $(this).height() ? maxHeight : $(this).height();
+        });
+        $('.plain').each(function() {
+          $(this).height(maxHeight);
+        });
       });    
     </script>
 
