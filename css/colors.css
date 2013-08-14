@@ -19,6 +19,9 @@ light gray:   rgba(248,247,247,1)
 
 a { color:rgba(110,176,0,1); }
 a:hover { color:rgba(0,154,201,1); }
+.navbar ul.nav li.active a {
+  color: #0799C8;
+}
 h3, h4 { /* Subheads */
   color:rgba(0,160,208,1);
   }
