@@ -294,3 +294,15 @@ label {
   margin: 5px 10px 20px 0;
   }
 
+/* Project Pages */
+/*=========================*/
+
+.minus-top, .minus-top .btn { position: relative; }
+
+/*Icon Stuff*/
+.side-nav i {
+  width: 36px;
+}
+
+/* JUST TEXT PAGES */
+
