@@ -8,7 +8,10 @@ $(document).ready(function() {
 // subtract height of projects so prev/next buttons show up in right places
 $(document).ready(function() {
   var projectheight = $('article.project').height();
-  var relpos = (61+projectheight)*-1;
+  var iconheight    = $('article.project div.tags.top').height();
+  var imageheight    = $('article.project div.leadimage').height();
+  var hedheight     = $('article.project h2').height();
+  var relpos        = (80+projectheight-iconheight-hedheight-imageheight)*-1;
   $('.minus-top .btn').css('top',relpos);
 });
 
