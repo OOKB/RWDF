@@ -223,14 +223,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     
-    
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.8.3.js"%3E%3C/script%3E'))</script>
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-<!--     <script src="http://cdn.s3.ookb.co/bootstrap/js/jquery.js"></script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.js"></script>
+    <script>!window.jQuery && document.write(unescape('%3Cscript src="js/libs/jquery-1.8.3.js"%3E%3C/script%3E'))</script>
+   
     <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap.js"></script>
     <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-transition.js"></script>
     <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-alert.js"></script>
@@ -245,22 +240,21 @@
     <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-carousel.js"></script>
     <script src="http://cdn.s3.ookb.co/bootstrap/js/bootstrap-typeahead.js"></script>
 
+   <!-- custom RWDF JS -->
+    <script src="js/jquery.isotope.js"></script>
+    <script src="js/rwdf.js"></script>
 
-  <script src="js/jquery.isotope.js"></script>
-  
-  
-  <!-- OOKB Custom -->
-   
-<script>
-   var $container = $('#projects');
-   $container.isotope({
-   })
-   $('#filters a').click(function(){
-     var selector = $(this).attr('data-filter');
-     $container.isotope({ filter: selector });
-     return false;
-     });
-   </script>
-
+    <!-- OOKB Custom -->
+    <script>
+      var $container = $('#projects');
+      $container.isotope({
+      })
+      $('#filters a').click(function(){
+        var selector = $(this).attr('data-filter');
+        $container.isotope({ filter: selector });
+        return false;
+      });
+    </script>
+    
   </body>
 </html>
