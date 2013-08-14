@@ -323,3 +323,11 @@ label {
   margin-top: 60px;
 }
 
+/* Slideshow Stuff */
+/*=========================*/
+
+#slideshow {overflow: hidden;}
+#slideshow .cycle-slideshow, 
+#slideshow .cycle-slideshow img {
+  width: 100%;
+}

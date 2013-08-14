@@ -15,4 +15,8 @@ $(document).ready(function() {
   $('.minus-top .btn').css('top',relpos);
 });
 
+$(document).ready(function() {
+  var wh = $(window).height();
+  $('#slideshow').height(wh-300);
+});
 
