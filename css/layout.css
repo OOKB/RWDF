@@ -78,11 +78,18 @@ nav.navbar > .container {
 /*=========================*/
 .hero {
   margin-top: 5px;
+  overflow: hidden;
+  max-height: 500px;
   }
   
 .hero .text * {
   color: white;
   margin: 0;
+}
+
+.hero .row {
+  overflow: hidden;
+  max-height: 500px;
 }
   
 .hero .row,
@@ -102,7 +109,7 @@ nav.navbar > .container {
   margin: 0;
 }
 
-.index .hero .row div.text * {
+.index .hero .row div.text > * {
   padding: 15px;
 }
 
@@ -145,6 +152,24 @@ nav.navbar > .container {
 .trio h3 { margin: .25em 0; }
 .trio h3 a { color: white; font-weight: 400; }
 
+.index .triptych .no-overlay div.text {
+  top: 0;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+
+.index .triptych .no-overlay div.text h3, .no-overlay h3 a {
+  color: #77A41D;
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.index .triptych .no-overlay .tags {margin-bottom: 10px;}
+.index .triptych .no-overlay .tags .icon {
+  width: 100px;
+}
 /* lower, more general stuff */
 .row-fluid {
   padding-top:25px;
