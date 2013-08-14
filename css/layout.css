@@ -301,6 +301,16 @@ label {
   margin: 5px 10px 20px 0;
   }
 
+#tab-staff .socialicon-color {
+  float:none;
+  margin-top: 15px !important;
+  }
+
+#tab-staff .plain a {
+  margin: 0px 10px 10px 0;
+  display: inline-block;
+}
+
 /* Project Pages */
 /*=========================*/
 
