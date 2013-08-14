@@ -261,25 +261,6 @@ label {
   margin:10px 0 2px 0;
   }
   
-.brick {
-  padding-bottom:20px;
-  border-bottom: 3px solid rgba(248,247,247,1); 
-  }
-  
-.brick h3 {
-  float:left;
-  }
-  
-.tags {
-  float:right;
-  margin-top:34px;
-  }
-  
-.brick p {
-  clear:both;
-  }
-  
-  
 /* Footer */
 /*=========================*/
 .diag-divider {
@@ -299,9 +280,36 @@ label {
 
 .minus-top, .minus-top .btn { position: relative; }
 
+.brick {
+  padding-bottom:20px;
+  border-bottom: 3px solid rgba(248,247,247,1); 
+  }
+  
+.brick h3 {
+  }
+  
+.tags {
+  display: block;
+  text-align: right;
+  margin-top: 34px;
+  }
+  
+.brick p {
+  clear:both;
+  margin-right: 55px;
+  }
+  
+
 /*Icon Stuff*/
-.side-nav i {
-  width: 36px;
+.side-nav .icon {
+  height: 30px;
+  max-width: 36px;
+  margin-right: 2px;
+}
+
+.tags .icon {
+  width: 18%;
+  margin-left: 1.5%;
 }
 
 /* JUST TEXT PAGES */
