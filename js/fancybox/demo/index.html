@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>fancyBox - Fancy jQuery Lightbox Alternative | Demonstration</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Le styles -->
+    <meta charset="utf-8">
+    <title>Robert W Deutsch Foundation &bull; SN Tool Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site Structure for the Deutsch Foundation Website">
+    <meta name="author" content="OOKB">
+      
+    <!-- Le styles -->
+    <!-- we're using 2.3.2, documentation is here: http://getbootstrap.com/2.3.2/ (as of 2013-08-13) -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="css/fontface.css" rel="stylesheet">
+    <link href="css/layout.css" rel="stylesheet">
+    <link href="css/colors.css" rel="stylesheet">
+    
+
+    <link href="css/lightboxetc.css" rel="stylesheet">
+
+	<!-- Add jQuery library -->
+	<script type="text/javascript" src="../lib/jquery-1.10.1.min.js"></script>
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="../source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="../source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.fancybox').fancybox();
+      });
+	</script>
+</head>
+
+<body>
+
+   <!-- Nav!
+    ================================================== -->
+    <nav class="navbar">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="logo" href="index.html"><img src="img/deutsch_logo.jpg" alt="Deutsch Foundation Official Logo"></a>
+        <div class="nav-collapse collapse">
+          <ul class="nav pull-right">
+            <li><a href="about.html">Who We Are</a></li>
+            <li><a href="work.html">What We Do</a></li>
+            <li><a href="tellus.html">Tell Us About You</a></li>
+            <li><a href="blog.html">Visit the Blog &raquo;</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+    <!-- /Nav!
+    ================================================== -->
+
+
+	<h1>fancyBox</h1>
+
+	<p>This is a demonstration. More information and examples: <a href="http://fancyapps.com/fancybox/">www.fancyapps.com/fancybox/</a></p>
+
+	<h3>Simple image gallery</h3>
+	<p>
+		<a class="fancybox" href="1_b.jpg" data-fancybox-group="gallery" title="Lorem ipsum dolor sit amet"><img src="1_s.jpg" alt="" /></a>
+
+		<a class="fancybox" href="2_b.jpg" data-fancybox-group="gallery" title="Etiam quis mi eu elit temp"><img src="2_s.jpg" alt="" /></a>
+
+		<a class="fancybox" href="3_b.jpg" data-fancybox-group="gallery" title="Cras neque mi, semper leon"><img src="3_s.jpg" alt="" /></a>
+
+		<a class="fancybox" href="4_b.jpg" data-fancybox-group="gallery" title="Sed vel sapien vel sem uno"><img src="4_s.jpg" alt="" /></a>
+	</p>
+
+	</body>
+</html>
